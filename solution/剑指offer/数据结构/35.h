@@ -28,8 +28,7 @@ public:
 			refMap[cur]->random = refMap[cur->random];
 			cur = cur->next;
 		}
-
-		return head;
+		return refMap[head];
 	}
 private:
 	std::unordered_map<Node*, Node*> refMap{};
