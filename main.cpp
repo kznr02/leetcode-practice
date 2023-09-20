@@ -1,8 +1,9 @@
 #include "main.h"
-#include "solution/剑指offer/搜索与回溯算法/13.h"
+#include "solution/剑指offer/排序/61.h"
 
 int main(int argc, char** argv) {
 	Solution s{};
-	std::cout << s.movingCount(19, 19, 9) << std::endl;
+	std::vector<int> v = { 1, 2, 3, 4, 5 };
+	std::cout << s.isStraight(v) << std::endl;
 	return 0;
 }
