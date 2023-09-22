@@ -1,11 +1,8 @@
 #include "main.h"
-#include "solution/剑指offer/排序/41.h"
+#include "solution/剑指offer/搜索与回溯算法/55-I.h"
 
 int main(int argc, char** argv) {
-	MedianFinder m;
-	std::vector<int> v = { 1, 2, 3, 4, 5 };
-	m.addNum(1);
-	m.addNum(2);
-	std::cout << m.findMedian();
+	Solution s;
+	
 	return 0;
 }
